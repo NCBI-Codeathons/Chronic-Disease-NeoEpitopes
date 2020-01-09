@@ -16,14 +16,14 @@ rm -rf snp_flanks jobs out acc
 
 sh $DIR/Bioproject2SRAData.sh $bioprojectID sra.txt
 
-sh $DIR/prototype.sh clinvar.vcf.gz $geneOrDisease 5
+sh $DIR/prototype.sh clinvar.vcf.gz $geneOrDisease
 cat *.snps > snp.txt
 
-rm -fr PSST
-git clone https://github.com/jakelever/PSST.git
+#rm -fr PSST
+#git clone https://github.com/jakelever/PSST.git
 PSSTROOT=$PWD/PSST
 
-sh $PSSTROOT/psst_1.sh -s <(echo ERR1630014) -n snp.txt -d snp_flanks -e $email -t 1 -p 1
+sh $PSSTROOT/psst_1.sh -s SRR4786029 -n snp.txt -d snp_flanks -e $email -t 1 -p 1
 
 mkdir jobs out acc
 

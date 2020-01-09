@@ -5,9 +5,9 @@ set -ux
 bioprojectID=$1
 outFile=$2
 
-esearch -db bioproject -query $bioprojectID | elink -target biosample | esummary | xtract -pattern DocumentSummary -block Attribute -if Attribute@attribute_name -equals "disease state" -element Attribute > tmp.meta
+~/edirect/esearch -db bioproject -query $bioprojectID | elink -target biosample | esummary | xtract -pattern DocumentSummary -block Attribute -if Attribute@attribute_name -equals "disease state" -element Attribute > tmp.meta
 
-esearch -db bioproject -query $bioprojectID | elink -target biosample | esummary | xtract -pattern DocumentSummary -element Identifiers | awk '{print $4}' > tmp.ids
+~/edirect/esearch -db bioproject -query $bioprojectID | elink -target biosample | esummary | xtract -pattern DocumentSummary -element Identifiers | awk '{print $4}' > tmp.ids
 
 #rm -f tmp.accessions
 #while read idval
