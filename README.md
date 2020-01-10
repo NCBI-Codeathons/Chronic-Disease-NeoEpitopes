@@ -2,7 +2,7 @@
 
 
 
-NEO antigens
+NEO epitopes
 
 ![Flowchart3](neo_spoon.jpeg)
 
