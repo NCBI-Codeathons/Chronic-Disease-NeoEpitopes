@@ -4,7 +4,7 @@
 
 # Neoepitope Identifier!
 
-![Flowchart3](neo_spoon.jpeg)
+![Flowchart3](imgs/neo_spoon.jpeg)
 
 There is no spoon
 
@@ -15,12 +15,12 @@ Paper citation/DOI here
 
 ## Entity Relationship Diagram
 
-![Flowchart](ERDneo.jpg)
+![Flowchart](imgs/ERDneo.jpg)
 
 ## Software design diagram:
 
 Workflow of the devolpment process. 
-![Flowchart2](Slide2.jpg)
+![Flowchart2](imgs/Slide2.jpg)
 
 ## What is the problem that needs to be solved?
 
@@ -32,7 +32,7 @@ We will solve the problem by combining and updating the already-available tools 
 
 ## What is 'NI!'?
 Neoepitope Identifier! is the SQL database that contains disease specific neoepitopes.  
-![](NI.png)
+![](imgs/NI.png)
 
 # Instructions for Use:
 
@@ -49,7 +49,7 @@ You will need: BioprojectID for your disease of interest, a list of SNPs, and th
 You will run SC3.sh (which contains PSST.sh) using the BioprojectID, which will output a list of SNPs.
 
 # Results:
-![](Slide3.png)
+![](imgs/Slide3.png)
 
 # Conclusions and next steps:
 Combining the available databases into one database with a simple neoepitope output allows for researchers and clinicians to easily find new protein targets. These targets can be used for researching disease mechanisms and drug targets. 
@@ -62,4 +62,4 @@ Adding/Linking more protein data to the database:
  - Post-translational modifications from UniProt
  - Organelle localization from fluorescence microscopy database
 
-![](bye.png)
+![](imgs/bye.png)
