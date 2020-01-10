@@ -49,7 +49,7 @@ You will need: BioprojectID for your disease of interest, a list of SNPs, and th
 You will run SC3.sh (which contains PSST.sh) using the BioprojectID, which will output a list of SNPs.
 
 # Results:
-in process
+![](Slide3.png)
 
 # Conclusions and next steps:
 Web hosting of the SQL database.
