@@ -52,9 +52,12 @@ You will run SC3.sh (which contains PSST.sh) using the BioprojectID, which will 
 ![](Slide3.png)
 
 # Conclusions and next steps:
+Combining the available databases into one database with a simple neoepitope output allows for researchers and clinicians to easily find new protein targets. These targets can be used for researching disease mechanisms and drug targets. 
+
+## Future Thoughts
 Web hosting of the SQL database.
 
-Adding more protein data to the database:
+Adding/Linking more protein data to the database:
  - Protein structural information from PDB/RSCB
  - Post-translational modifications from UniProt
  - Organelle localization from fluorescence microscopy database
