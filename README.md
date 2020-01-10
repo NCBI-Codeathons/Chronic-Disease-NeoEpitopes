@@ -32,7 +32,7 @@ We will solve the problem by combining and updating the already-available tools 
 
 ## What is 'NI!'?
 Neoepitope Identifier! is the SQL database that contains disease specific neoepitopes.  
-
+![Flowchart](NI.jpg)
 
 # Instructions for Use:
 
