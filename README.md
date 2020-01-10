@@ -10,10 +10,19 @@ There is no spoon
 
 Paper citation/DOI here
 
+
 # Introduction:
 
+## Entity Relationship Diagram
 
-## What is the problem that needs solved?
+![Flowchart](ERDneo.jpg)
+
+## Software design diagram:
+
+Detailed information to make the final table
+![Flowchart2](Slide2.jpg)
+
+## What is the problem that needs to be solved?
 
 Finding a list of SNPs present in RNAseq data is currently feasible, but the more actionable information is the proteins that are made when these SNP-containing transcripts are translated into proteins.
 
@@ -21,19 +30,9 @@ Finding a list of SNPs present in RNAseq data is currently feasible, but the mor
 
 We will solve the problem by combining and updating the already-available tools named PSST and SC3, and incorporating SNP-transcript translation using Ensembl. We will have multiple tables that when combined and converted to an SQL database, will be queryable but also able to be added to, should the researcher want to contribute to it. 
 
-## What is <the software>?
+## What is (supercoolAcronym)?
 
-General information flow
-![Flowchart](Slide1.jpg)
 
-## Software design diagram:
-
-Detailed information to make the final table
-![Flowchart2](Slide2.jpg)
-
-## Entity Relationship Diagram
-
-![Flowchart](ERDneo.jpg)
 
 # Instructions for Use:
 
