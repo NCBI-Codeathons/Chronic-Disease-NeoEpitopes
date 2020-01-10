@@ -19,7 +19,7 @@ Paper citation/DOI here
 
 ## Software design diagram:
 
-Detailed information to make the final table
+Workflow of the devolpment process. 
 ![Flowchart2](Slide2.jpg)
 
 ## What is the problem that needs to be solved?
