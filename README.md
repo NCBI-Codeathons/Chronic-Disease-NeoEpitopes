@@ -2,7 +2,7 @@
 
 
 
-NEO epitopes
+Neoepitope Identifier!
 
 ![Flowchart3](neo_spoon.jpeg)
 
@@ -24,14 +24,14 @@ Detailed information to make the final table
 
 ## What is the problem that needs to be solved?
 
-Finding a list of SNPs present in RNAseq data is currently feasible, but the more actionable information is the proteins that are made when these SNP-containing transcripts are translated into proteins.
+Finding a list of SNPs present in RNAseq data is currently feasible, but the more actionable information is the resultant proteins from the SNP-containing transcripts.
 
 ## How will we solve the problem?
 
-We will solve the problem by combining and updating the already-available tools named PSST and SC3, and incorporating SNP-transcript translation using Ensembl. We will have multiple tables that when combined and converted to an SQL database, will be queryable but also able to be added to, should the researcher want to contribute to it. 
+We will solve the problem by combining and updating the already-available tools named PSST and SC3, and incorporating SNP-transcript translation using Ensembl. We will have multiple tables that when combined and converted to an SQL database, will be queryable but also able to be added to, should a researcher want to contribute to it. 
 
-## What is (supercoolAcronym)?
-
+## What is 'NI!'?
+Neoepitope Identifier! is the SQL database that contains disease specific neoepitopes.  
 
 
 # Instructions for Use:
