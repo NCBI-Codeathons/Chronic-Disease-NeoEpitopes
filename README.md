@@ -33,7 +33,7 @@ Detailed information to make the final table
 
 ## Entity Relationship Diagram
 
-x
+![Flowchart](ERDneo.jpg)
 
 # Instructions for Use:
 
